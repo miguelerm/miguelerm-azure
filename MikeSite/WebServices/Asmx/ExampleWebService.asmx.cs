@@ -22,8 +22,8 @@ namespace MikeSite.WebServices.Asmx
             return new []
             {
                 new OU { Id = 1, Name = "IT"},
-                new OU { Id = 1, Name = "Marketing"},
-                new OU { Id = 1, Name = "Sales"}
+                new OU { Id = 2, Name = "Marketing"},
+                new OU { Id = 3, Name = "Sales"}
 
             };
         }
