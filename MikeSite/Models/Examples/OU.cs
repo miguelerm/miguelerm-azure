@@ -1,6 +1,6 @@
 ﻿namespace MikeSite.Models.Examples
 {
-    public class OranizationalUnit
+    public class OU
     {
 
         public int Id { get; set; }

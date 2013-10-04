@@ -101,7 +101,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Examples\OranizationalUnit.cs" />
+    <Compile Include="Models\Examples\OU.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebServices\Asmx\ExampleWebService.asmx.cs">
       <DependentUpon>ExampleWebService.asmx</DependentUpon>

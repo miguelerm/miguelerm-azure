@@ -17,13 +17,13 @@ namespace MikeSite.WebServices.Asmx
     {
 
         [WebMethod]
-        public OranizationalUnit[] GetOrganizationalUnits()
+        public OU[] GetOUs()
         {
             return new []
             {
-                new OranizationalUnit { Id = 1, Name = "IT"},
-                new OranizationalUnit { Id = 1, Name = "Marketing"},
-                new OranizationalUnit { Id = 1, Name = "Sales"}
+                new OU { Id = 1, Name = "IT"},
+                new OU { Id = 1, Name = "Marketing"},
+                new OU { Id = 1, Name = "Sales"}
 
             };
         }
